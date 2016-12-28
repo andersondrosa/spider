@@ -1,0 +1,23 @@
+{
+    "name": "andersondrosa/spider",
+    "type": "library",
+    "description": "Smarty manager of array connections",
+    "keywords": ["spider", "array", "data", "matrix", "connection", "manager"],
+    "homepage": "https://github.com/andersondrosa/spider",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anderson D. Rosa",
+            "email": "andersondrosa@outlook.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AndersonDRosa\\Spider\\": "src/"
+        }
+    }
+}
